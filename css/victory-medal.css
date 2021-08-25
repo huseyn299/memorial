@@ -1,0 +1,163 @@
+.VictoryMedalAll{
+    margin-top: 80px
+}
+.victory-head{
+    font-size: 48px;
+    font-family: BigShoulders-Regular;
+}
+.victory-medal{
+    font-size: 18px;
+    font-family: Oswald-Light;
+    margin-top: 40px
+}
+.victory-image{
+    width: 64px;
+    height: 171px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px
+}
+.victory-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+.image-container{
+    float: right;
+}
+.all-victims{
+    margin-top: 100px
+}
+.victims-photos-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.image-cont{
+    width: 250px;
+    -webkit-box-shadow: -31px -27px 0px 0px #ff5858;
+    box-shadow: -31px -27px 0px 0px #ff5858;
+    position: relative;
+}
+.line{
+    width: 30px;
+    height: 0px;
+    border: 1px solid #1A1A1A;
+    display: flex
+}
+.play a{
+    text-decoration: none;
+    color: #1A1A1A
+}
+.play{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+    padding: 10px 0px 6px 10px;
+
+}
+.play span{
+    display: block;
+    /* font-family: Oswald-Light; */
+}
+.head{
+    font-family: Oswald-Light;
+    font-size: 16px;
+    padding-top: 10px
+}
+.end{
+    font-size: 12px;
+    opacity: 0.75px;
+    font-family: Oswald-ExtraLight;
+    font-size: 14px
+}
+.end i{
+    font-size: 21px;
+    padding-left: 45px;
+} 
+.button{
+    background: #F6F6F6;
+    height: 55px;
+    width: 193px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.button a{
+    color: #FF5858;
+    text-decoration: none;
+    font-size: 18px;
+}
+.button i{
+    font-size: 14px;
+    padding-left: 10px
+}
+.button-loc{
+    margin-bottom: 80px
+}
+
+
+
+
+.posts {
+    margin:60px auto;
+    border:1px solid #dfdfdf;
+    background:#fff;
+    max-width:60%;
+    padding:40px;
+    line-height:1.5em;
+    text-align:justify;
+    border-radius:8px;
+  }
+  .posts h1 {
+    text-align:center
+  }
+  
+  .separate {
+    padding:30px 0;
+    display:block;
+  }
+  .one { background:#fff; }
+  .two { background:#888; }
+  
+  a {
+    text-decoration:none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  a:hover {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  /* start STYLE 1 */
+  
+  .style-1 {
+    border:3px solid #000;
+    color:#000;
+    font:12px Montserrat;
+    text-transform:uppercase;  
+    padding:10px;
+    font-weight:600;
+    max-width:250px;
+    display:block;
+    text-align:center;  
+    margin:10px auto;
+    position:relative;
+  }
+  .style-1:hover {
+    background:#000;
+    border-color:#000;
+    color:#fff;
+  }
+  

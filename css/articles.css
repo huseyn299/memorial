@@ -1,0 +1,105 @@
+body{
+    margin:  0;
+    padding: 0
+}
+
+
+/* check */
+.all-victims{
+    margin-top: 100px
+}
+.victims-photos-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.image-cont{
+    width: 250px;
+    -webkit-box-shadow: -31px -27px 0px 0px #ff5858;
+    box-shadow: -31px -27px 0px 0px #ff5858;
+    position: relative;
+}
+.name-line{
+    width: 30px;
+    height: 0px;
+    border: 1px solid #1A1A1A;
+    display: flex
+}
+.name a{
+    text-decoration: none;
+    color: #1A1A1A
+}
+.name{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+    padding: 10px 0px 6px 10px;
+
+}
+.name span{
+    display: block;
+    /* font-family: Oswald-Light; */
+}
+.name-head{
+    font-family: Oswald-Light;
+    font-size: 16px;
+    padding-top: 10px
+}
+.name-end{
+    font-size: 12px;
+    opacity: 0.75px;
+    font-family: Oswald-ExtraLight;
+    font-size: 14px
+}
+.name-end i{
+    font-size: 21px;
+    padding-left: 45px;
+} 
+.button{
+    background: #F6F6F6;
+    height: 55px;
+    width: 193px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.button a{
+    color: #FF5858;
+    text-decoration: none;
+    font-size: 18px;
+}
+.button i{
+    font-size: 14px;
+    padding-left: 10px
+}
+.button-loc{
+    margin-bottom: 80px
+}
+/* read more */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+#text{
+display:none;
+}
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  color:white;
+}
+/* read more */

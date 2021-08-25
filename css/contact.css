@@ -1,0 +1,138 @@
+.body{
+    background-color: #191919;
+}
+.contact-head{
+    font-size: 48px;
+    font-family: BigShoulders-Regular;
+    margin: 60px 15px 60px 15px
+}
+.cont{
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+.input-cont input{
+    outline: 0;
+    border: 1px solid #FF5858;
+    height: 54px;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #191919;
+    color: white;
+    margin-top: 70px;
+    font-family: Oswald-Light;
+}
+.input-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.contact div:nth-child(2){
+    justify-content: flex-end;
+}
+.textarea{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.textarea textarea{
+    width: 800px;
+    height: 180px;
+    background-color: #191919;
+    outline: none;
+    color: #fff;
+    border: 1px solid #FF5858;
+    resize: none;
+}
+::placeholder{
+    color: white;
+    opacity: 75%;
+    font-family: Oswald-Light;
+
+}
+textarea::placeholder{
+    color: white;
+    opacity: 0.75;
+    text-align: center;
+}
+.add-photo{
+    font-size: 18px;
+    font-family: Oswald-Light;
+    text-align: center;
+    margin-top: 50px;
+}
+.add-photo a{
+    color: white;
+    text-decoration: none;
+}
+.button-all{
+    margin-top: 50px;
+}
+.select-photo{
+    width: 190px;
+    height: 30px;
+    border: 1px solid #FF5858;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.select-photo a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+}
+.first{
+    margin-left: auto;
+}
+.add-button{
+    height: 57px;
+    width: 180px;
+    background-color: #FF5858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.add-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Oswald-Light
+}
+.add-file{
+    width: 150px;
+}
+label{
+    background: #191919;
+    display: table;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #FF5858;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: Oswald-ExtraLight;
+}
+input[type="file"] {
+    display: none;
+
+}
+.first{
+    float: right;
+}
+.label-cont{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

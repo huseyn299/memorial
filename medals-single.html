@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="animation/animation.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/victory-medal.css">
+    <link rel="stylesheet" href="responsive/articles.css">
+    <link rel="stylesheet" href="css/menu-foot.css">
+    <link rel="stylesheet" href="responsive/menu-foot-res.css">
+</head>
+<!-- nav -->
+<section class="NavigationBar">
+    <div class="container">
+        <div class="row">
+
+            <nav class="custom navbar navbar-inverse">
+                <div class="col-sm-2 scale-out-center logo">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/memorial.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 scale-out-center navigate collapse navbar-collapse" id="myNavbar">
+                    <ul class=" menu-list navbar-nav">
+
+                        <li class="active">
+                            <a href="about-us.html">HAQQIMIZDA</a>
+                        </li>
+                        <li>
+                            <a href="articles.html">MƏQALƏLƏR</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">ƏLAQƏ</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="myNav" class="overlay">
+                    <div class="hamburger">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                    <div class="overlay-content">
+                        <form class="form res-form">
+                            <div class="search-all col-xs-12">
+                                <div class="SearchHeadRes search-head">
+                                    <input type="text" placeholder="Axtar" />
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                        <ul class="menu-nav">
+                            <li class="active"><a href="about-us.html">HAQQIMIZDA</a></li>
+							<li><a href="articles.html">MƏQALƏLƏR</a></li>
+							<li><a href="contact.html">ƏLAQƏ</a></li>
+						 </ul>
+                        <div class=" nav-item dropdown">
+                            <ul class="LanguangeListRes languange-list" style="display: flex;">
+                                <li><a href="">AZ</a></li>
+                                <li><a href="">EN</a></li>
+                                <li><a href="">RU</a></li>
+                            </ul>
+                        </div>
+                        <div class="ButtonMenuCont scale-in-center">
+                            <div class="button-menu " onclick="closeNav()" ;>
+                                <a href="#section-1">
+                                    <i class="fa fa-angle-down"></i>
+                                    Aşağı endir
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="open-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                <div class="col-sm-3 scale-out-center icon collapse navbar-collapse" id="myNavbar">
+                    <form class="form">
+                        <div class="">
+                            <div class="search-head">
+                                <input type="text" placeholder="Axtar" />
+                                <a href=""><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class=" nav-item dropdown">
+                            <ul class=" languange-list" style="display: flex;">
+                                <li><a href="">AZ</a></li>
+                                <li><a href="">EN</a></li>
+                                <li><a href="">RU</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+</section>
+<!-- Home -->
+<div class="container">
+    <div class="row">
+        <div id="section-1" class="col-sm-12 VictoryMedalAll">
+            <div data-aos="zoom-in" class="image-container col-sm-3 col-xs-12 col-md-3 col-lg-3">
+                <div class="victory-image">
+                    <img src="img/Zafar_order_of_Azerbaijan.png" alt="">
+                </div>
+
+            </div>
+            <div data-aos="fade-right" class="victory-text col-sm-9 col-xs-12 col-md-9 col-lg-9">
+                <div class="all-text">
+                    <h1 class="victory-head">Zəfər ordeninə layiq görülən qəhrəmanlar</h1>
+                    <div class="victory-medal">
+                        2020-ci il noyabrın 20-də Azərbaycan Respublikasının Milli Məclisində Vətən Müharibəsində qələbə
+                        münasibətilə Azərbaycan Respublikasının orden və medallarının təsis edilməsi ilə əlaqədar
+                        "Azərbaycan Respublikasının orden və medallarının təsis edilməsi haqqında" Azərbaycan
+                        Respublikasının Qanununda dəyişiklik edilməsi barədə Azərbaycan Respublikası qanununun layihəsi
+                        təqdim edilmiş[1] və birinci oxunuşda təsdiqlənmişdir.[2]
+                        <br><br>
+                        Azərbaycan Respublikasının "Zəfər" ordeninin statutu Azərbaycan Respublikasının 2020-ci il 26
+                        noyabr tarixli 204-VIQD nömrəli Qanunu ilə təsdiq edilmişdir.[3] Əsasnamədə deyilir:
+                        Maddə 1. Təltif edilən şəxslər
+                        <br><br>
+                        Azərbaycan Respublikasının "Zəfər" ordeni ilə Azərbaycan Respublikasının ərazi bütövlüyünün və
+                        təhlükəsizliyinin təmin edilməsi zamanı əhəmiyyətli və ya strateji ərazinin, yaşayış
+                        məntəqəsinin, rayonun və ya şəhərin düşmən işğalından azad olunması ilə nəticələnmiş döyüş
+                        əməliyyatlarına, Azərbaycan Respublikasının dövlət sərhədinin bərpa edilməsi üzrə döyüş
+                        əməliyyatlarına yüksək peşəkarlıqla rəhbərlik etmiş Azərbaycan Respublikası Silahlı Qüvvələrinin
+                        hərbi hissə komandirləri və onlardan yuxarı rəhbər heyəti, habelə ərazi bütövlüyünün təmin
+                        edilməsi sahəsində xüsusi xidmətlərinə görə digər şəxslər təltif edilir.
+                        Maddə 2. Təltif edən orqan
+                        <br><br>
+                        Azərbaycan Respublikasının "Zəfər" ordeni ilə bu Əsasnamənin 1-ci maddəsində göstərilən şəxslər
+                        Azərbaycan Respublikası Konstitusiyasının 109-cu maddəsinin 23-cü bəndinə uyğun olaraq təltif
+                        edilirlər.
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="zoom-in" class="all-victims col-sm-12">
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-aos="zoom-in" class="all-victims button-loc col-sm-12">
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="victims-photos-1 col-sm-6 col-xs-12 col-md-6 col-lg-3">
+                <div class="image-cont">
+                    <img src="img/Polad Hashimov.png" alt="">
+                    <div class="play">
+                        <div class="line"></div>
+                        <a href="">
+                            <span class="head">Polad Həsimov</span>
+                            <span class="end">Milli qəhrəmanımız <i class="fa fa-angle-right"></i> </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <a href="articles.html">
+                Daha cox
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- axtar -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="main-search">
+            <div data-aos="fade-down" class="third-text">
+                <div class="search-line"></div>
+                <h1 class="search">AXTAR</h1>
+                <div class="search-text">
+                    Vətən müharibəsində şəhid olmuş hərbi qulluqçuların məlumat bazası
+                </div>
+                <form class="search-form" action="/action_page.php">
+                    <input class="searh-input" type="text" id="search" name="search" placeholder="adını daxil edin">
+                    <div class="input-button">
+                        <a href="">
+                            <span>Axtar</span>
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container foot-container">
+        <div class="row">
+            <div class="col-sm-12 footer-cont">
+                <div class="col-sm-2 col-xs-6">
+                    <a href="#">
+                        <img src="img/foot-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="developer col-sm-8 col-xs-0">
+                    <a target="_blank" href="https://webcoder.az/"> webcoder agentliyi tərəfindən
+                        hazırlanmışdır</a>
+                </div>
+                <div class="col-sm-2 col-xs-6 foot-icon" id="myNavbar">
+                    <ul class=" foot-icons col-sm-4 col-xs-12 navbar-nav ">
+
+                        <li class="fb-icon">
+                            <a class="fa fa-facebook" href=""></a>
+                        </li>
+                        <li class="fb-icon">
+                            <a class="fa fa-twitter" href=""></a>
+                        </li>
+                        <li class="fb-icon">
+                            <a class="fa fa-instagram" href=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,500,500i,600,600i|Playfair+Display:300,400,400i,500,500i,600,600i|Lobster:400,400i,500,500i,600,600i|Montserrat:400,400i,500,500i,600,600i' rel='stylesheet' type='text/css'>
+
+<!-- 
+
+    Remember that the selection tag for this item in Tumblr is: ".read_more", so whatever style you get from here, then you should change the name of the element.
+
+-->
+
+<div class="posts">
+  <h1>Read More Style 1</h1>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar lacus id urna sagittis egestas. Mauris id bibendum purus, vestibulum tristique mauris. Nullam dapibus sem non nulla lobortis, vitae blandit sem volutpat. Integer fringilla aliquet nulla eu aliquam. Donec euismod scelerisque mi quis lobortis. Aliquam convallis risus ligula, non pellentesque dolor hendrerit id. Nunc facilisis arcu nulla, nec tempus neque scelerisque vel. Donec pharetra dolor eget ullamcorper porta.<br><br> Suspendisse interdum diam velit, nec porta magna elementum quis. Etiam id suscipit est. Cras rhoncus felis tincidunt lorem rutrum, id vehicula neque scelerisque. Fusce a tempor ipsum, quis accumsan nisl.
+  
+
+  
+</div>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+    });
+
+
+    $(document).ready(function () {
+        if ($(window).width() < 1200) {
+            $('[data-aos]').attr('data-aos', '');
+        }
+    });
+
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+
+<script src="js/scorpion.js"></script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/script.js"></script>
+<script src="js/read-more.js"></script>
+</body>
+
+</html>

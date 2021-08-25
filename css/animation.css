@@ -1,0 +1,75 @@
+.wrap {
+	width: 256px;
+    position: absolute;
+	right: 50px;
+    top: 15px;
+    height: 512px;
+    margin: 50px auto;
+    z-index: 999;
+    margin-top: 0;
+}
+.slider {
+	width: 256px;
+	height: 512px;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+    top: 45px;
+}
+.slider__row {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: auto;
+	overflow: hidden;
+	transition: 0.5s;
+	width: 200px;
+	/* background-image: url(../img/film\ lent-01\ \(3\).png); */
+}
+.row__item img{
+	width: 100% !important;
+	height: 100% !important;
+
+}
+.row__item {
+	height: 160px !important;
+    width: 132px !important;
+    margin-left: 14px;
+}
+.slider{
+	height: 88vh;
+	width: 160px;
+	background-image: url(../img/lent.png);
+	opacity: 60%;
+	
+}
+.back{
+
+	width: 100%;
+	height: 100%;
+}
+.lent-back{
+    background-image: url(../img/layer.png);
+    height: 240px;
+    width: 100%;
+    z-index: 99999999999999999;
+    position: absolute;
+    top: -1px;
+    /* margin-left: 14px; */
+    background-repeat: no-repeat;
+    width: 162px;
+    opacity: 100%;
+}
+.dark-shadow{
+    background-image: url(../img/layer.png);
+    transform: rotate(180deg);
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: -2px;
+    opacity: 100%;
+    right: 0px;
+    height: 240px;
+    width: 100%;
+}

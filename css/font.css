@@ -1,0 +1,74 @@
+@font-face{
+    src: url(../font/BigShouldersDisplay-Black.ttf);
+    font-family: BigShoulders-Black;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-Bold.ttf);
+    font-family: BigShoulders-Bold;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-ExtraBold.ttf);
+    font-family: BigShoulders-ExtraBold;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-Light.ttf);
+    font-family: BigShoulders-Light;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-Medium.ttf);
+    font-family: BigShoulders-Medium;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-Regular.ttf);
+    font-family: BigShoulders-Regular;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-SemiBold.ttf);
+    font-family: BigShoulders-SemiBold;
+}
+@font-face{
+    src: url(../font/BigShouldersDisplay-Thin.ttf);
+    font-family: BigShoulders-Thin;
+}
+/* babas font */
+@font-face{
+    src: url(../font/BebasNeue\ Bold.otf);
+    font-family: BebasNeue-bold;
+}
+@font-face{
+    src: url(../font/BebasNeue\ Book.otf);
+    font-family: BebasNeue-book;
+}
+@font-face{
+    src: url(../font/BebasNeue\ Light.otf);
+    font-family: BebasNeue-light;
+}
+@font-face{
+    src: url(../font/BebasNeue\ Thin.otf);
+    font-family: BebasNeue-thin;
+}
+/* oswald */
+@font-face{
+    src: url(../font/Oswald-Bold.ttf);
+    font-family: Oswald-Bold;
+}
+@font-face{
+    src: url(../font/Oswald-ExtraLight.ttf);
+    font-family: Oswald-ExtraLight;
+}
+@font-face{
+    src: url(../font/Oswald-Light.ttf);
+    font-family: Oswald-Light;
+}
+@font-face{
+    src: url(../font/Oswald-Medium.ttf);
+    font-family: Oswald-Medium;
+}
+@font-face{
+    src: url(../font/Oswald-Regular.ttf);
+    font-family: Oswald-Regular;
+}
+@font-face{
+    src: url(../font/Oswald-SemiBold.ttf);
+    font-family: Oswald-SemiBold;
+}

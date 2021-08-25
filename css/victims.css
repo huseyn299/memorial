@@ -1,0 +1,155 @@
+.body-first{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.SecondImageContainer{
+    background-image: url(../img/taniyaq.png);
+    height: 640px;
+    width: 555px;
+    overflow: hidden
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+}
+.play a{
+    font-size: 16px;
+    color: #1A1A1A;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.line{
+    width: 66px;
+    height: 3px;
+    border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
+    margin-left: 40px
+}
+.EvenLine{
+    width: 66px;
+    height: 3px;
+    border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
+}
+.BodyHeadContent{
+    color: #1A1A1A;
+    font-family: BigShoulders-Regular;
+    font-size: 48px;
+    padding-left: 40px;
+    
+}
+.EvenBodyHeadContent{
+    color: #1A1A1A;
+    font-family: BigShoulders-Regular;
+    font-size: 48px;
+}
+.header div{
+    width: 456px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    font-size: 13px;
+    padding-bottom: 40px
+}
+.body-text{
+    font-family: BigShoulders-Regular;
+    font-size: 14px;
+    margin-top: 20px
+}
+.body-cont{
+    padding-left: 150px;
+    margin-top: 90px
+}
+.body-cont span{
+    font-family: Oswald-Light;
+    padding-left: 40px
+}
+.EvenBodyCont{
+    margin-top: 100px;
+}
+.even-cont{
+   padding-left: 80px
+}
+.main-content{
+    margin-top: 80px;
+}
+.img-container{
+    background-image: url(../img/PoladHashimov.png);
+    height: 680px;
+    width: 580px;
+    overflow: hidden;
+    background-size: cover
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+}
+.play a{
+    font-size: 16px;
+    color: #1A1A1A
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.button{
+    height: 55px;
+    width: 193px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDEDED;
+    margin-top: 90px
+}
+.button a{
+    color:  #F6F6F6;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Oswald-Light;
+    color: #FF5858
+}
+.button i{
+    font-size: 14px;
+    padding-left: 10px
+}
+.list{
+    display: flex;
+    margin-top: 10px
+}
+.list h3{
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-family: BigShoulders-Regular;
+}
+.list span {
+    font-size: 20px;
+    font-family: Oswald-Light;
+    opacity: 60%;
+    padding-left: 10px;
+    padding-top: 4px;
+}

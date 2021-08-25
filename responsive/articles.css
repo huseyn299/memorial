@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1400px){
+    .victims-photos-1 img{
+        width: 100%
+    }
+    .victims-photos-1{
+        padding-left: 40px;
+        padding-right: 40px
+    }
+    .image-cont{
+        width: auto
+    }
+}
+@media only screen and (max-width: 1200px){
+    .victims-photos-1{
+        margin-top: 70px;
+        margin-bottom: 60px
+    }
+}
+@media only screen and (max-width: 768px){
+    .victory-image{
+        margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    }
+    .victory-text{
+        margin-bottom: 80px
+    }
+}

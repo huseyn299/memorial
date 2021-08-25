@@ -1,0 +1,39 @@
+@media only screen and (max-width: 991px){
+    .header div{
+        width: auto
+    }
+    .head-content{
+        margin-left: 0
+    }
+    .line{
+        margin-left: 0
+    }
+    .header{
+        padding: 0
+    } 
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 441px){
+    .img-container{
+        height: 433px;
+    }
+}
+@media only screen and (max-width: 1399px) and (min-width: 1200px){
+    .head-content{
+        margin-left: 74px;
+    }
+    .line{
+        margin-left: 93px
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 991px){
+    .line{
+        margin-left: 32px;
+    }
+    .head-content{
+        margin-left: 15px
+    }
+}
